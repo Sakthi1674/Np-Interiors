@@ -1,0 +1,68 @@
+.Cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color:rgb(233, 173, 10);
+}
+  
+  .Application {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .Temp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+  }
+  .radio {
+    display: none;
+  }
+  .radio ~ span {
+    font-size: 3rem;
+    filter: grayscale(100);
+    cursor: pointer;
+    transition: 1ms;
+  }
+  
+  .radio:checked ~ span {
+    filter: grayscale(0);
+    font-size: 4rem;
+  }
+  
+.Card {
+  border: 1px solid #d37777;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.CardHeader {
+  background-color: #4bcc5f;
+  padding: 10px;
+  border-bottom: 1px solid #83afb9;
+  border-radius: 8px 8px 0 0;
+}
+
+.CardContent {
+  padding: 15px;
+}
+
+.Message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #1f319a;
+}
